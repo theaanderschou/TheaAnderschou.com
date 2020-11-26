@@ -1,16 +1,19 @@
 /* Main.css */
 /* CSS stylesheet for every subpage */
 
-body {
-  background-image: image();
+* {
+  background-image:
+  url(rockywall.png);
 }
 
-
-
-
-
 /* Home */
-
+.index-introduction {
+  width: auto;
+  height: auto;
+  border: 5px solid white;
+  padding: 10px;
+  text-align: justify;
+}
 
 
 
