@@ -2,17 +2,30 @@
 /* CSS stylesheet for every subpage */
 
 * {
-  background-image:
-  url(rockywall.png);
+  background-image: url(rockywall.png);
 }
 
 /* Home */
+.front-image {
+padding-bottom: 20px;
+  width: 1500px;
+  height: 768px;
+  margin-left: 0;
+  transform: translateY(0) translateX(0);
+}
+
+.index-header {
+text-align: center;
+padding-bottom: 20px;
+}
+
 .index-introduction {
   width: auto;
   height: auto;
   border: 5px solid white;
   padding: 10px;
   text-align: justify;
+  transform: translate(0 0);
 }
 
 
