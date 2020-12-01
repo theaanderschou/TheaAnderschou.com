@@ -29,6 +29,7 @@ header {
   background-color: black;
   position: fixed;
   z-index: 2;
+  top: 0;
 }
 
 .logo-container,.nav-links {
@@ -73,7 +74,6 @@ nav {
   background-size: cover;
   background-position: top center;
   position: relative;
-  z-index: 1;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -84,7 +84,7 @@ nav {
 .hero-text {
   max-width: 60%;
   position: absolute;
-  left: 100px;
+  left: 50px;
 }
 
 #hero h1 {
@@ -101,14 +101,15 @@ nav {
   font-size: 2rem;
   position: relative;
   color: #D0C6B8;
-  margin-top: 5%;
+  margin-top: 4%;
+  margin-bottom: 10%;
 }
 
 #hero .cta {
   display: inline-block;
   padding: 10px 30px;
   color: #D0C6B8;
-  background-color: transparent;
+  background: transparent;
   border: 2px solid #D0C6B8;
   font-size: 2rem;
   text-transform: uppercase;
@@ -140,6 +141,31 @@ height: 100vh;
   font-size: 4rem;
   position: relative;
   color: #D0C6B8;
+  margin: 20px 10px 10px 50px;
+}
+
+#about p {
+  display: block;
+  width: fit-content;
+  font-size: 2rem;
+  position: relative;
+  color: #D0C6B8;
+  margin: 20px 10px 10px 50px;
+}
+
+.about {
+  width: 50%;
+  float: left;
+}
+
+.about-image {
+width: 50%;
+height: 100%;
+float: left;
+background: url(./img/foto.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 /* End of About Me Section */
 
@@ -164,7 +190,8 @@ height: 100vh;
   display: inline-block;
   padding: 10px 30px;
   color: #D0C6B8;
-  background-color: transparent;
+  background-color: black;
+  opacity: 70%;
   border: 2px solid #D0C6B8;
   font-size: 1rem;
   text-transform: uppercase;
