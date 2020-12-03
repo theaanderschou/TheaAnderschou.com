@@ -425,7 +425,7 @@ footer {
   font-size: 1rem;
   position: relative;
   color: #D0C6B8;
-  margin: 10px 10px 10px 50px;
+  margin: 10px 50px 10px 50px;
 }
 
 footer a:any-link {
@@ -450,18 +450,140 @@ color: #D0C6B8;
 
 .footer-links {
   justify-content: space-around;
+  width: 90%;
 }
 
 .footer-link {
   color: #D0C6B8;
   font-size: 7px;
-  align-items: center;
   text-align: center;
-  justify-content: space-around;
+  transition: .2s;
 }
 
 .footer-link:hover {
   color: #D0C6B8;
   font-weight: 600;
+  opacity: .6;
 }
+
+.footer-link h4 {
+  margin-top: 5px;
+}
+
 /* End of Footer */
+
+
+
+/* Contact Form */
+#contact {
+  height: 120vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: #D0C6B8;
+  margin: 10px 10px 10px 10px;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.header p {
+  display: block;
+  width: fit-content;
+  font-size: 1.5rem;
+  position: relative;
+  color: #D0C6B8;
+  margin: 20px 50px 10px 50px;
+  text-align: justify;
+}
+
+#contact p {
+  display: block;
+  width: fit-content;
+  font-size: 1.5rem;
+  position: relative;
+  color: #D0C6B8;
+  margin: 10px 50px 10px 10px;
+  text-align: justify;
+}
+
+form {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+
+.half-col {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+.half-col img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+form p {
+  color: #D0C6B8;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  border-radius: 10px;
+  background: #D0C6B8;
+  border: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+form input {
+  height: 20px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+form textarea {
+  height: 200px;
+  padding: 10px;
+}
+
+form button {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #D0C6B8;
+    background-color: black;
+    opacity: 80%;
+    border: 2px solid #D0C6B8;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    z-index: 2;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    color: #D0C6B8;
+    background-color: #D0C6B8;
+    color: black;
+}
+/* End of Contact Form */
