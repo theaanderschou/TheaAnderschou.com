@@ -119,12 +119,15 @@ nav {
   color: #D0C6B8;
   background: transparent;
   border: 2px solid #D0C6B8;
-  font-size: 2rem;
+  font-size: 1rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .1rem;
   margin-top: 30px;
   transition: .3s ease;
   transition-property: background-color, color;
+  background-color: black;
+  opacity: 80%;
 }
 
 #hero .cta:hover {
@@ -178,6 +181,32 @@ background: url(./img/foto.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+#about .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #D0C6B8;
+  background: transparent;
+  border: 2px solid #D0C6B8;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  transition: .3s ease;
+  transition-property: background-color, color;
+  background-color: black;
+  opacity: 80%;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 5%;
+}
+
+#about .cta:hover {
+  color: #D0C6B8;
+  background-color: #D0C6B8;
+  color: black;
 }
 /* End of About Me Section */
 
@@ -390,35 +419,45 @@ footer {
   bottom: 0;
 }
 
+.footer-container {
+  display: block;
+  width: fit-content;
+  font-size: 1rem;
+  position: relative;
+  color: #D0C6B8;
+  margin: 10px 10px 10px 50px;
+}
+
 footer a:any-link {
   color: #D0C6B8;
 }
 
-.footer-container,.footer-links {
+.footer-links {
   display: flex;
-}
-
-.footer-container {
-  flex: 1;
-}
-
-.logo {
-  font-weight: 400;
 }
 
 footer {
   flex: 2;
 }
 
+.contact {
+font-weight: 700;
+}
+
+.footer-text,.footer-links {
+color: #D0C6B8;
+}
+
 .footer-links {
   justify-content: space-around;
-  list-style: none;
 }
 
 .footer-link {
   color: #D0C6B8;
-  font-size: 14px;
-  text-decoration: none;
+  font-size: 7px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .footer-link:hover {
