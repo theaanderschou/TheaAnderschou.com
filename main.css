@@ -46,6 +46,7 @@ header a:any-link {
 
 .logo-container {
   flex: 1;
+  margin-left: 20px;
 }
 
 .logo {
