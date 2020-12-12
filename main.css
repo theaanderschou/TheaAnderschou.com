@@ -267,10 +267,11 @@ background-size: cover;
   font-size: 22px;
   text-align: center;
   z-index: 1;
-  transition: .2s;
+  transition: .1s;
   background: #D0C6B8;
   padding: 5px 10px;
   color: #000000;
+  opacity: 70%;
 }
 
 .project-item a {
@@ -385,7 +386,7 @@ background-size: cover;
 /* "To the top button" */
 #to-top {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 10px;
   color: #D0C6B8;
   background-color: black;
   opacity: 80%;
@@ -395,10 +396,10 @@ background-size: cover;
   letter-spacing: .1rem;
   transition: .3s ease;
   transition-property: background-color, color;
-  right: 5%;
+  right: 4%;
   position: fixed;
   z-index: 2;
-  bottom: 25%;
+  bottom: 17%;
 }
 
 #to-top:hover {
