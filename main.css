@@ -49,10 +49,6 @@ header a:any-link {
   margin-left: 20px;
 }
 
-.logo {
-  font-weight: 400;
-}
-
 nav {
   flex: 2;
 }
@@ -111,7 +107,7 @@ nav {
   position: relative;
   color: #D0C6B8;
   margin-top: 4%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 #hero .cta {
