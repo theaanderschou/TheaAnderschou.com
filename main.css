@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding: 0; /* determines the padding on the entire html on every html file linked to this stylesheet (boxmodel) */
+    margin: 0;  /* determines the margin on the entire html on every html file linked to this stylesheet (boxmodel) */
+    box-sizing: border-box; /* inverts the border on the box, so the border won't take up more space */
 }
 
 a:any-link {
-  color: #D0C6B8;
+  color: #D0C6B8; /* determines text color on links when hovering */
 }
 
 a:any-link:hover {
-  font-weight: 600;
-  color: #d0c6b8;
+  font-weight: 600; /* determines font weight (bold, regular or thin) on the link when hovering */
+  color: #d0c6b8; /* determines text color on links when hovering */
 }
 
 body {
-  background: black;
+  background: black; /* determines background color for the body on every subpage linked to this stylesheet */
 }
 
 html {
-  font-size: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 10px; /* determines font size */
+  font-family: 'Montserrat', sans-serif; /* determines font family */
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; /* removes underlining on links */
 }
 
 /* Nav */
@@ -611,7 +611,7 @@ form button {
     margin: 50px 10px 10px 50px;
   }
   
-  #p-sub p {
+  .p-sub p {
     display: block;
     width: fit-content;
     font-size: 1.5rem;
@@ -670,6 +670,7 @@ form button {
       width: 1000px;
       height: 400px;
       margin-top: 5%;
+      margin-bottom: 10%;
     }
 
     .p-sub-container img {
@@ -680,11 +681,26 @@ form button {
       margin-right: 13%;
           }
 
+    .p-sub-container h4 {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 13%;
+    }
+
+    .p-sub-container p {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      margin-left: 13%;
+      margin-right: 45%;
+    }
+
     .p-sub-container2 {
       float: left;
       background-color: black;
       width: 1000px;
       height: 400px;
+      margin-bottom: 12%;
     }
 
     .p-sub-container2 img {
@@ -695,11 +711,26 @@ form button {
       margin-right: 13%;
           }
 
+      .p-sub-container2 h4 {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 13%;
+    }
+
+    .p-sub-container2 p {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      margin-left: 13%;
+      margin-right: 45%;
+    }
+
     .p-sub-container3 {
       float: left;
       background-color: black;
       width: 1000px;
       height: 400px;
+      margin-bottom: 17%;
     }
 
     .p-sub-container3 img {
@@ -710,11 +741,26 @@ form button {
       margin-right: 13%;
           }
 
+    .p-sub-container3 h4 {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 13%;
+    }
+
+    .p-sub-container3 p {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      margin-left: 13%;
+      margin-right: 45%;
+    }
+
     .p-sub-container4 {
       float: left;
       background-color: black;
       width: 1000px;
       height: 400px;
+      margin-bottom: 14%;
     }
 
     .p-sub-container4 img {
@@ -723,13 +769,28 @@ form button {
       position: relative;
       margin-left: 13%;
       margin-right: 13%;
-          }
+      }
+
+    .p-sub-container4 h4 {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 13%;
+    }
+
+    .p-sub-container4 p {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      margin-left: 13%;
+      margin-right: 45%;
+    }
 
     .p-sub-container5 {
       float: left;
       background-color: black;
       width: 1000px;
       height: 350px;
+      margin-bottom: 14%;
     }
 
     .p-sub-container5 img {
@@ -740,11 +801,26 @@ form button {
       margin-right: 13%;
           }
 
+    .p-sub-container5 h4 {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 13%;
+    }
+
+    .p-sub-container5 p {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      margin-left: 13%;
+      margin-right: 45%;
+    }
+
     .p-sub-container6 {
       float: left;
       background-color: black;
       width: 1000px;
       height: 325px;
+      margin-bottom: 13%;
     }
 
     .p-sub-container6 img {
@@ -755,11 +831,26 @@ form button {
       margin-right: 13%;
           }
 
+    .p-sub-container6 h4 {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 13%;
+    }
+
+    .p-sub-container6 p {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      margin-left: 13%;
+      margin-right: 45%;
+    }
+        
     .p-sub-container7 {
       float: left;
       background-color: black;
       width: 1000px;
       height: 700px;
+      margin-bottom: 15%;
     }
 
     .p-sub-container7 img {
@@ -768,9 +859,21 @@ form button {
       position: relative;
       margin-left: 13%;
       margin-right: 13%;
-          }
+    }
 
+    .p-sub-container7 h4 {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 13%;
+    }
 
+    .p-sub-container7 p {
+      color: #d0c6b8;
+      font-size: 1.5rem;
+      margin-left: 13%;
+      margin-right: 45%;
+    }
 /* End of Projects subpage 1 Section */
 
 
@@ -807,14 +910,19 @@ form button {
     position: relative;
   }
   
-  .p-sub2-image {
-  width: 50%;
-  height: 100%;
-  float: left;
-  background: url(./img/foto.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  .cookie {
+    width: 500px;
+    height: 500px;
+    background-image : url(./img/cookie.png);
+    animation: moveX 6s steps(6) infinite;
+    float: right;
+    margin-right: 5%;
+    margin-top: 15vh;
+  }
+  
+  @keyframes moveX {
+    from{background-position-x:0px;}
+    to{background-position-x:-3000px;}
   }
 
   #p-sub2 .cta {
@@ -841,6 +949,50 @@ form button {
     color: #D0C6B8;
     background-color: #D0C6B8;
     color: black;
+  }
+
+  .p-sub2-container {
+    float: left;
+    background-color: black;
+    width: 900px;
+    height: 500px;
+    margin-top: 7%;
+  }
+
+  .p-sub2-container img {
+    height: 400px;
+    width: 600px;
+    position: relative;
+    margin-left: 35%;
+    }
+
+  .p-sub2-container h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 35%;
+  }
+
+  .p-sub2-container2  {
+    float: left;
+    background-color: black;
+    width: 1000px;
+    height: 140px;
+    margin-bottom: 10%;
+  }
+
+  .p-sub2-container2 img {
+    height: 140px;
+    width: 1000px;
+    position: relative;
+    margin-left: 15%;
+    }
+
+  .p-sub2-container2 h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 15%;
   }
 /* End of Projects subpage 2 Section */
 
