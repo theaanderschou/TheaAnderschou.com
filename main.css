@@ -599,7 +599,7 @@ form button {
 /* Project subpage 1 */
 #p-sub {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   }
   
   #p-sub h1 {
@@ -624,8 +624,7 @@ form button {
   .p-sub {
     width: 50%;
     float: left;
-    transform: translateY(-50%);
-    top: 50%;
+    top: 5%;
     position: relative;
   }
   
@@ -779,8 +778,7 @@ form button {
 /* Project subpage 2 */
 #p-sub2 {
   width: 100%;
-  height: 100vh;
-  margin-top: 3000px;
+  height: 120vh;
   }
   
   #p-sub2 h1 {
@@ -805,10 +803,8 @@ form button {
   .p-sub2 {
     width: 50%;
     float: left;
-    transform: translateY(-50%);
-    top: 30%;
+    top: 5%;
     position: relative;
-    margin-bottom: 20%;
   }
   
   .p-sub2-image {
@@ -846,7 +842,6 @@ form button {
     background-color: #D0C6B8;
     color: black;
   }
-
 /* End of Projects subpage 2 Section */
 
   
@@ -855,7 +850,7 @@ form button {
 /* Project subpage 3 */
 #p-sub3 {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   }
   
   #p-sub3 h1 {
@@ -880,10 +875,8 @@ form button {
   .p-sub3 {
     width: 50%;
     float: left;
-    transform: translateY(-50%);
-    top: 30%;
+    top: 5%;
     position: relative;
-    margin-bottom: 20%;
   }
   
   .p-sub3-image {
@@ -921,7 +914,6 @@ form button {
     background-color: #D0C6B8;
     color: black;
   }
-
 /* End of Projects subpage 3 Section */
 
 
@@ -929,7 +921,7 @@ form button {
 /* Project subpage 4 */
 #p-sub4 {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   }
   
   #p-sub4 h1 {
@@ -954,10 +946,8 @@ form button {
   .p-sub4 {
     width: 50%;
     float: left;
-    transform: translateY(-50%);
-    top: 30%;
+    top: 5%;
     position: relative;
-    margin-bottom: 20%;
   }
   
   .p-sub4-image {
@@ -995,14 +985,13 @@ form button {
     background-color: #D0C6B8;
     color: black;
   }
-
 /* End of Projects subpage 4 Section */
 
 
 /* Project subpage 5 */
 #p-sub5 {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   }
   
   #p-sub5 h1 {
@@ -1027,16 +1016,12 @@ form button {
   .p-sub5 {
     width: 50%;
     float: left;
-    transform: translateY(-50%);
-    top: 30%;
+    top: 5%;
     position: relative;
-    margin-bottom: 20%;
   }
   
   .tiger {
-  position: relative;
-  margin-top: 10%;
-  margin-left: 5%;
+    margin: 10% 0 10% 5%;
   }
 
   .p-sub5-image {
@@ -1074,79 +1059,75 @@ form button {
     background-color: #D0C6B8;
     color: black;
   }
-
 /* End of Projects subpage 5 Section */
 
 
 
 /* Project subpage 6 */
-  #p-sub6 {
-    width: 100%;
-    height: 100vh;
-    }
-    
-    #p-sub6 h1 {
-      display: block;
-      width: fit-content;
-      font-size: 4rem;
-      position: relative;
-      color: #D0C6B8;
-      margin: 50px 10px 10px 50px;
-    }
-    
-    #p-sub6 p {
-      display: block;
-      width: fit-content;
-      font-size: 1.5rem;
-      position: relative;
-      color: #D0C6B8;
-      margin: 20px 50px 10px 50px;
-      text-align: justify;
-    }
-    
-    .p-sub6 {
-      width: 50%;
-      float: left;
-      transform: translateY(-50%);
-      top: 30%;
-      position: relative;
-      margin-bottom: 20%;
-    }
-    
-    .p-sub6-image {
+#p-sub6 {
+  width: 100%;
+  height: 120vh;
+  }
+  
+  #p-sub6 h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: #D0C6B8;
+    margin: 50px 10px 10px 50px;
+  }
+  
+  #p-sub6 p {
+    display: block;
+    width: fit-content;
+    font-size: 1.5rem;
+    position: relative;
+    color: #D0C6B8;
+    margin: 20px 50px 10px 50px;
+    text-align: justify;
+  }
+  
+  .p-sub6 {
     width: 50%;
-    height: 100%;
     float: left;
-    background: url(./img/foto.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+    top: 5%;
+    position: relative;
+  }
   
-    #p-sub6 .cta {
-      display: inline-block;
-      padding: 10px 30px;
-      color: #D0C6B8;
-      background: transparent;
-      border: 2px solid #D0C6B8;
-      font-size: 1rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .1rem;
-      transition: .3s ease;
-      transition-property: background-color, color;
-      background-color: black;
-      opacity: 80%;
-      position: relative;
-      transform: translateX(-50%);
-      left: 50%;
-      margin-top: 5%;
-    }
-    
-    #p-sub6 .cta:hover {
-      color: #D0C6B8;
-      background-color: #D0C6B8;
-      color: black;
-    }
+  .p-sub6-image {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: url(./img/foto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  #p-sub6 .cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #D0C6B8;
+    background: transparent;
+    border: 2px solid #D0C6B8;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    background-color: black;
+    opacity: 80%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 5%;
+  }
   
+  #p-sub6 .cta:hover {
+    color: #D0C6B8;
+    background-color: #D0C6B8;
+    color: black;
+  }
 /* End of Projects subpage 6 Section */
