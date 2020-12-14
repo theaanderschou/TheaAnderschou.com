@@ -184,32 +184,6 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-
-#about .cta {
-  display: inline-block;
-  padding: 10px 30px;
-  color: #D0C6B8;
-  background: transparent;
-  border: 2px solid #D0C6B8;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-  transition: .3s ease;
-  transition-property: background-color, color;
-  background-color: black;
-  opacity: 80%;
-  position: relative;
-  transform: translateX(-50%);
-  left: 50%;
-  margin-top: 5%;
-}
-
-#about .cta:hover {
-  color: #D0C6B8;
-  background-color: #D0C6B8;
-  color: black;
-}
 /* End of About Me Section */
 
 
@@ -220,7 +194,7 @@ background-size: cover;
   height: 100vh;
   }
 
-.projects-intro h1, .projects-intro p {
+.projects-intro h1, .stormy-intro p {
   color: #D0C6B8;
 }
 
@@ -253,7 +227,7 @@ background-size: cover;
   height: 250px;
   flex-grow: 1;
   margin: 0 25px;
-  background: #D0C6B8;
+  background: black;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -267,11 +241,11 @@ background-size: cover;
   font-size: 22px;
   text-align: center;
   z-index: 1;
-  transition: .1s;
-  background: #D0C6B8;
+  transition: .2s;
+  background: black;
   padding: 5px 10px;
-  color: #000000;
-  opacity: 70%;
+  color: #d0c6b8;
+  opacity: 60%;
 }
 
 .project-item a {
@@ -284,7 +258,7 @@ background-size: cover;
   transform: translate(-50%,-50%);
   left: 50%;
   top: 50%;
-  opacity: .2;
+  opacity: .7;
   transition: .2s;
 }
 
@@ -294,6 +268,7 @@ background-size: cover;
 
 .project-item:hover h4 {
   color: white;
+  opacity: 20%;
 }
 /* End of Projects Section */
 
@@ -301,7 +276,7 @@ background-size: cover;
 
 /* Stormy And Ink Section */
 #stormy {
-  height: 100vh;
+  height: 145vh;
   }
 
 .stormy-intro h1, .stormy-intro p {
@@ -337,7 +312,7 @@ background-size: cover;
   height: 250px;
   flex-grow: 1;
   margin: 0 25px;
-  background: #D0C6B8;
+  background: black;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -352,9 +327,10 @@ background-size: cover;
   text-align: center;
   z-index: 1;
   transition: .2s;
-  background: #D0C6B8;
+  background: black;
   padding: 5px 10px;
-  color: #000000;
+  color: #d0c6b8;
+  opacity: 60%;
 }
 
 .stormy-item a {
@@ -367,7 +343,7 @@ background-size: cover;
   transform: translate(-50%,-50%);
   left: 50%;
   top: 50%;
-  opacity: .2;
+  opacity: .7;
   transition: .2s;
 }
 
@@ -377,6 +353,7 @@ background-size: cover;
 
 .stormy-item:hover h4 {
   color: white;
+  opacity: 20%;
 }
 /* End of Stormy And Ink Section */
 
@@ -420,7 +397,7 @@ footer {
   margin: 0;
   align-items: center;
   background-color: black;
-  z-index: 2;
+  z-index: 10;
   bottom: 0;
 }
 
@@ -583,7 +560,7 @@ form button {
     transition: .3s ease;
     transition-property: background-color, color;
     z-index: 2;
-    margin-top: 10px;
+    margin-top: 25px;
   }
   
   button:hover {
