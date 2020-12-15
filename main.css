@@ -80,7 +80,7 @@ nav {
 /* Hero Section */
 
 #hero {
-  background-image: url(./img/silhuet.jpg);
+  background-image: url(./img/hero2.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -179,7 +179,7 @@ height: 100vh;
 width: 50%;
 height: 100%;
 float: left;
-background: url(./img/foto.jpg);
+background: url(./img/bright.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -458,7 +458,7 @@ color: #D0C6B8;
 
 /* Contact Form */
 #contact {
-  height: 120vh;
+  height: 110vh;
   position: relative;
   box-sizing: border-box;
 }
@@ -537,7 +537,7 @@ form input, form textarea {
 }
 
 form input {
-  height: 20px;
+  height: 30px;
   margin-bottom: 15px;
   padding-left: 10px;
 }
@@ -940,14 +940,14 @@ form button {
     height: 400px;
     width: 600px;
     position: relative;
-    margin-left: 35%;
+    margin-left: 37%;
     }
 
   .p-sub2-container h4 {
     color: #d0c6b8;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-left: 35%;
+    margin-left: 37%;
   }
 
   .p-sub2-container2  {
@@ -962,14 +962,14 @@ form button {
     height: 140px;
     width: 1000px;
     position: relative;
-    margin-left: 15%;
+    margin-left: 13%;
     }
 
   .p-sub2-container2 h4 {
     color: #d0c6b8;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-left: 15%;
+    margin-left: 13%;
   }
 /* End of Projects subpage 2 Section */
 
@@ -979,7 +979,7 @@ form button {
 /* Project subpage 3 */
 #p-sub3 {
   width: 100%;
-  height: 120vh;
+  height: 130vh;
   }
   
   #p-sub3 h1 {
@@ -1008,11 +1008,15 @@ form button {
     position: relative;
   }
   
+  .buster {
+    margin: 5% 0 5% 8%;
+  }
+
   .p-sub3-image {
   width: 50%;
   height: 100%;
   float: left;
-  background: url(./img/foto.jpg);
+  background: url(./img/buster2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1050,7 +1054,7 @@ form button {
 /* Project subpage 4 */
 #p-sub4 {
   width: 100%;
-  height: 120vh;
+  height: 100%;
   }
   
   #p-sub4 h1 {
@@ -1059,7 +1063,7 @@ form button {
     font-size: 4rem;
     position: relative;
     color: #D0C6B8;
-    margin: 50px 10px 10px 50px;
+    margin: 95px 10px 10px 50px;
   }
   
   #p-sub4 p {
@@ -1073,7 +1077,7 @@ form button {
   }
   
   .p-sub4 {
-    width: 50%;
+    width: 45%;
     float: left;
     top: 5%;
     position: relative;
@@ -1081,12 +1085,183 @@ form button {
   
   .p-sub4-image {
   width: 50%;
-  height: 100%;
+  height: 135vh;
   float: left;
-  background: url(./img/foto.jpg);
+  background: url(./img/jatoba_home.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 5%;
+  margin-left: 5%;
+  }
+
+  .p-sub4-container {
+    float: left;
+    background-color: black;
+    width: 300px;
+    height: 600px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    transform: translateX(50%);
+  }
+
+  .p-sub4-container img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 13%;
+        }
+
+  .p-sub4-container h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 40%;
+  }
+
+  .p-sub4-container2 {
+    float: left;
+    background-color: black;
+    width: 300px;
+    height: 700px;
+    margin-top: 5%;
+    margin-bottom: 12%;
+  }
+
+  .p-sub4-container2 img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-left: 120%;
+  }
+
+  .p-sub4-container2 h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 120%;
+    width: 120%;
+  }
+
+  .p-sub4-container3 {
+    float: left;
+    background-color: black;
+    width: 27.5%;
+    height: 72.5vh;
+    margin-bottom: 5%;
+    margin-left: 32.5%;
+  }
+
+  .p-sub4-container3 img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-left: 13%;
+    margin-right: 13%;
+        }
+
+  .p-sub4-container3 h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 13%;
+  }
+
+  .p-sub4-container4 {
+    float: left;
+    background-color: black;
+    width: 27.5%;
+    height: 72.5vh;
+    margin-bottom: 5%;
+    margin-left: 32.5%;
+  }
+
+  .p-sub4-container4 img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-left: 13%;
+    margin-right: 13%;
+        }
+
+  .p-sub4-container4 h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 13%;
+  }
+
+  .p-sub4-container5 {
+    float: left;
+    background-color: black;
+    width: 27.5%;
+    height: 72.5vh;
+    margin-bottom: 5%;
+    margin-left: 32.5%;
+  }
+
+  .p-sub4-container5 img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-left: 13%;
+    margin-right: 13%;
+        }
+
+  .p-sub4-container5 h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 13%;
+  }
+
+  .p-sub4-container6 {
+    float: left;
+    background-color: black;
+    width: 27.5%;
+    height: 72.5vh;
+    margin-bottom: 5%;
+    margin-left: 32.5%;
+  }
+
+  .p-sub4-container6 img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-left: 13%;
+    margin-right: 13%;
+        }
+
+  .p-sub4-container6 h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 13%;
+  }
+
+  .p-sub4-styletile {
+    float: left;
+    background-color: black;
+    width: 27.5%;
+    height: 72.5vh;
+    margin-bottom: 5%;
+    margin-left: 21%;
+  }
+
+  .p-sub4-styletile img {
+    height: 500px;
+    width: 180%;
+    position: relative;
+    margin-left: 13%;
+    margin-right: 13%;
+        }
+
+  .p-sub4-styletile h4 {
+    color: #d0c6b8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 13%;
   }
 
   #p-sub4 .cta {
@@ -1120,7 +1295,7 @@ form button {
 /* Project subpage 5 */
 #p-sub5 {
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   }
   
   #p-sub5 h1 {
@@ -1150,7 +1325,8 @@ form button {
   }
   
   .tiger {
-    margin: 10% 0 10% 5%;
+    margin-left: 7%;
+    margin-bottom: 3%;
   }
 
   .p-sub5-image {
@@ -1181,6 +1357,7 @@ form button {
     transform: translateX(-50%);
     left: 50%;
     margin-top: 5%;
+    margin-bottom: 20%;
   }
   
   #p-sub5 .cta:hover {
@@ -1195,7 +1372,7 @@ form button {
 /* Project subpage 6 */
 #p-sub6 {
   width: 100%;
-  height: 120vh;
+  height: 80vh;
   }
   
   #p-sub6 h1 {
@@ -1224,14 +1401,8 @@ form button {
     position: relative;
   }
   
-  .p-sub6-image {
-  width: 50%;
-  height: 100%;
-  float: left;
-  background: url(./img/foto.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  .apricus {
+    margin-top: 10%;
   }
 
   #p-sub6 .cta {
@@ -1252,6 +1423,7 @@ form button {
     transform: translateX(-50%);
     left: 50%;
     margin-top: 5%;
+    margin-bottom: 10%;
   }
   
   #p-sub6 .cta:hover {
