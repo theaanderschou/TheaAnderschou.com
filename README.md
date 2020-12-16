@@ -1,2 +1,4 @@
 # TheaAnderschou.com
-My presentation Portfolio
+My Presentation Portfolio
+
+I hope you enjoy it!
