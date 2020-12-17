@@ -22,8 +22,6 @@ a:any-link:hover {
 }
 
 html {
-    font-size: 10px;
-    /* determines font size */
     font-family: 'Montserrat', sans-serif;
     /* determines font family */
 }
@@ -112,7 +110,7 @@ nav {
 #hero h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
 }
@@ -120,7 +118,7 @@ nav {
 #hero h2 {
     display: block;
     width: fit-content;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
     color: #D0C6B8;
     margin-top: 4%;
@@ -133,7 +131,7 @@ nav {
     color: #D0C6B8;
     background: transparent;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -164,7 +162,7 @@ nav {
 #about h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 50px 10px 10px 50px;
@@ -173,7 +171,7 @@ nav {
 #about p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -218,7 +216,7 @@ nav {
 #projects h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 50px 10px 10px 50px;
@@ -227,7 +225,7 @@ nav {
 #projects p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -259,7 +257,7 @@ nav {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    font-size: 22px;
+    font-size: 1rem;
     text-align: center;
     z-index: 1;
     transition: .2s;
@@ -310,7 +308,7 @@ nav {
 #stormy h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 50px 10px 10px 50px;
@@ -319,7 +317,7 @@ nav {
 #stormy p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -352,7 +350,7 @@ nav {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    font-size: 22px;
+    font-size: 1rem;
     text-align: center;
     z-index: 1;
     transition: .2s;
@@ -401,7 +399,7 @@ nav {
 .header h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 10px 10px 10px 10px;
@@ -414,7 +412,7 @@ nav {
 .header p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -424,7 +422,7 @@ nav {
 #contact p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 10px 50px 10px 10px;
@@ -490,7 +488,7 @@ form button {
     background-color: black;
     opacity: 80%;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     transition: .3s ease;
@@ -519,7 +517,7 @@ button:hover {
     background-color: black;
     opacity: 80%;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     transition: .3s ease;
@@ -556,7 +554,7 @@ footer {
 .footer-container {
     display: block;
     width: fit-content;
-    font-size: 1rem;
+    font-size: .6rem;
     position: relative;
     color: #D0C6B8;
     margin: 10px 50px 10px 50px;
@@ -619,7 +617,7 @@ footer {
 #p-sub h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 50px 10px 10px 50px;
@@ -628,7 +626,7 @@ footer {
 .p-sub p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -658,7 +656,7 @@ footer {
     color: #D0C6B8;
     background: transparent;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -696,14 +694,14 @@ footer {
 
 .p-sub-container h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     transform: translateX(35%);
 }
 
 .p-sub-container p {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: .875rem;
     margin-left: 13%;
     transform: translateX(25%);
 }
@@ -725,14 +723,14 @@ footer {
 
 .p-sub-container2 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     transform: translateX(35%);
 }
 
 .p-sub-container2 p {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: .875rem;
     transform: translateX(35%);
 }
 
@@ -753,14 +751,14 @@ footer {
 
 .p-sub-container3 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     transform: translateX(35%);
 }
 
 .p-sub-container3 p {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: .875rem;
     transform: translateX(35%);
 }
 
@@ -781,14 +779,14 @@ footer {
 
 .p-sub-container4 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     transform: translateX(35%);
 }
 
 .p-sub-container4 p {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: .875rem;
     transform: translateX(35%);
 }
 
@@ -809,14 +807,14 @@ footer {
 
 .p-sub-container5 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     transform: translateX(35%);
 }
 
 .p-sub-container5 p {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: .875rem;
     transform: translateX(35%);
 }
 
@@ -837,14 +835,14 @@ footer {
 
 .p-sub-container6 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     transform: translateX(35%);
 }
 
 .p-sub-container6 p {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: .875rem;
     transform: translateX(35%);
 }
 
@@ -865,14 +863,14 @@ footer {
 
 .p-sub-container7 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     transform: translateX(35%);
 }
 
 .p-sub-container7 p {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: .875rem;
     transform: translateX(35%);
 }
 /* End of Projects subpage 1 Section */
@@ -888,7 +886,7 @@ footer {
 #p-sub2 h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 50px 10px 10px 50px;
@@ -897,7 +895,7 @@ footer {
 #p-sub2 p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -937,7 +935,7 @@ footer {
     color: #D0C6B8;
     background: transparent;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -973,7 +971,7 @@ footer {
 
 .p-sub2-container h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 37%;
 }
@@ -996,7 +994,7 @@ footer {
 
 .p-sub2-container2 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 13%;
 }
@@ -1015,7 +1013,7 @@ footer {
 #p-sub3 h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 50px 10px 10px 50px;
@@ -1024,7 +1022,7 @@ footer {
 #p-sub3 p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -1058,7 +1056,7 @@ footer {
     color: #D0C6B8;
     background: transparent;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -1091,7 +1089,7 @@ footer {
 #p-sub4 h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 95px 10px 10px 50px;
@@ -1100,7 +1098,7 @@ footer {
 #p-sub4 p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -1146,7 +1144,7 @@ footer {
 
 .p-sub4-container h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 40%;
 }
@@ -1169,7 +1167,7 @@ footer {
 
 .p-sub4-container2 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 120%;
     width: 120%;
@@ -1194,7 +1192,7 @@ footer {
 
 .p-sub4-container3 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 13%;
 }
@@ -1218,7 +1216,7 @@ footer {
 
 .p-sub4-container4 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 13%;
 }
@@ -1242,7 +1240,7 @@ footer {
 
 .p-sub4-container5 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 13%;
 }
@@ -1266,7 +1264,7 @@ footer {
 
 .p-sub4-container6 h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 13%;
 }
@@ -1290,7 +1288,7 @@ footer {
 
 .p-sub4-styletile h4 {
     color: #d0c6b8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 13%;
 }
@@ -1301,7 +1299,7 @@ footer {
     color: #D0C6B8;
     background: transparent;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -1333,7 +1331,7 @@ footer {
 #p-sub5 h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 50px 10px 10px 50px;
@@ -1341,8 +1339,7 @@ footer {
 
 #p-sub5 p {
     display: block;
-    width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -1366,7 +1363,7 @@ footer {
     color: #D0C6B8;
     background: transparent;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -1400,7 +1397,7 @@ footer {
 #p-sub6 h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: #D0C6B8;
     margin: 50px 10px 10px 50px;
@@ -1409,7 +1406,7 @@ footer {
 #p-sub6 p {
     display: block;
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: .875rem;
     position: relative;
     color: #D0C6B8;
     margin: 20px 50px 10px 50px;
@@ -1433,7 +1430,7 @@ footer {
     color: #D0C6B8;
     background: transparent;
     border: 2px solid #D0C6B8;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -1497,8 +1494,8 @@ footer {
     }
 
     #p-sub5 p {
-        width: 40%;
-        transform: translateX(60%);
+        width: 70%;
+        transform: translateX(15%);
     }
 
     #p-sub5 .cta {
@@ -1515,8 +1512,8 @@ footer {
     }
 
     #p-sub6 p {
-        width: 40%;
-        transform: translateX(60%);
+        width: 70%;
+        transform: translateX(15%);
     }
 
     #p-sub6 .cta {
