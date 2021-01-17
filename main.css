@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    background: white;
+    background: #000000;
     /* determines background color for the body on every subpage linked to this stylesheet */
     scroll-behavior: smooth;
 }
